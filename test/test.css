@@ -1,0 +1,29 @@
+* { margin: 0; padding: 0; }
+html, body, .page { height: 100%; }
+body {
+	background: #4D4D4D;
+	font: normal 100%/1.5em 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: white;
+}
+
+.page {
+	max-width: 40em;
+	padding: 0 2em;
+	margin: 0 auto;
+	background: rgba(0,0,0,.4);
+	text-align: center;
+}
+
+.note:empty {
+	display: none;
+}
+
+.note {
+	background: orangered;
+	padding: 1em 0;
+	margin: 2em -2em;
+}
+
+h1 {
+	padding: 1em 0;
+}
