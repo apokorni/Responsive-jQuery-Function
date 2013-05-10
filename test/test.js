@@ -20,7 +20,7 @@ function myResponsiveFunction()
 	{
 		// Stuff to be done to get all styles back to original
 		$('body').removeAttr("style");
-		$('.note p').replaceWith('You are on a very small screen rite?');
+		$('.note p').replaceWith('<p>You are on a very small screen rite?</p>');
 		if ( $('img').length > 0 ) {
 			$('img').hide();
 		}
